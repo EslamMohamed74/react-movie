@@ -6,8 +6,8 @@ function SingleActorInfo(props) {
     return (
         <div class="actorContainer">
             <div class="avatar">
-                <img src={`http://image.tmdb.org/t/p/w154/${props.info.profile_path}`} height="200" width="200" />
-                <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="200" width="200" />
+                <img src={`http://image.tmdb.org/t/p/w154/${props.info.profile_path}`} height="200" width="200" alt="noImage"/>
+                <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="200" width="200" alt="noImage"/>
             </div>
             <h2>{props.info.name}</h2>
             <h4>{props.info.known_for_department}</h4>
